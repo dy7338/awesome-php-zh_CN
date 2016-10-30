@@ -108,7 +108,7 @@
 *Web开发框架*
 
 * [Aura PHP](http://auraphp.com/) - 一个独立的组件框架
-* [CakePHP](http://cakephp.org/) - 一个快速应用程序开发框架 (CP)
+* [CakePHP](https://cakephp.org/) - 一个快速应用程序开发框架 (CP)
 * [Laravel 5](https://laravel.com/) - 另一个PHP框架 (L5)
 * [Nette](https://nette.org) - 另一个由个体组件组成的框架
 * [Phalcon](https://phalconphp.com/en/) - 通过C扩展实现的框架
@@ -625,7 +625,7 @@
 * [ANSI to HTML5](https://github.com/sensiolabs/ansi-to-html) - 一个将ANSI转化为HTML5的库
 * [Color Jizz](https://github.com/mikeemoo/ColorJizz-PHP) - 处理和转换颜色的库
 * [Device Detector](https://github.com/piwik/device-detector) - 另一个解析user agent字符串的库
-* [Hoa String](https://github.com/hoaproject/String) - 另一个UTF-8字符串库
+* [Hoa String](https://github.com/hoaproject/Ustring) - 另一个UTF-8字符串库
 * [Jieba-PHP](https://github.com/fukuball/jieba-php) - Python的jieba的PHP端口，自然语言处理的中文文本分词
 * [Mobile-Detect](https://github.com/serbanghita/Mobile-Detect) - 一个用于检测移动设备的轻量级PHP类(包括平板电脑)
 * [Patchwork UTF-8](https://github.com/nicolas-grekas/Patchwork-UTF8) - 一个处理UTF-8字符串的便携库
@@ -773,6 +773,7 @@
 * [PHP Expression](https://github.com/Kitano/php-expression) - 一个PHP表达式语言
 * [PHP PassBook](https://github.com/eymengunay/php-passbook) - 一个iOS PassBook PHP库
 * [PHP-GPIO](https://github.com/ronanguilloux/php-gpio) - 一个用于Raspberry PI的GPIO pin的库
+* [PHP-ML](https://github.com/php-ai/php-ml) - 一个机器学习的PHP库
 * [PHPCR](https://github.com/phpcr/phpcr) - 一个Java内容存储库(JCR)的PHP实现
 * [PHPStack](http://dunkels.com/adam/phpstack/) - 一个PHP编写的TCP/IP栈概念
 * [print_o](https://github.com/koriym/print_o) - 一个对象图的可视化器
@@ -828,7 +829,7 @@
 *基于Web的应用和工具*
 
 * [3V4L](https://3v4l.org/) - 一个在线的PHP和HHVM shell
-* [DBV](http://dbv.vizuina.com/) - 一个数据库版本控制应用
+* [DBV](https://dbv.vizuina.com/) - 一个数据库版本控制应用
 * [PHP Queue](https://github.com/CoderKungfu/php-queue) - A一个管理后端队列的应用
 * [MailCatcher](https://github.com/sj26/mailcatcher) - 一个抓取和查看邮件的web工具
 * [Cachet](https://github.com/cachethq/cachet) - 开源状态页面系统
@@ -922,7 +923,7 @@
 * [PHP Sucks! But I Like It!](http://blog.ircmaxell.com/2012/04/php-sucks-but-i-like-it.html) - 一篇关于PHP利弊的文章
 * [Preventing CSRF Attacks](http://blog.ircmaxell.com/2013/02/preventing-csrf-attacks.html) - 一篇阻止CSRF攻击的文章
 * [Seven Ways to Screw Up BCrypt](http://blog.ircmaxell.com/2012/12/seven-ways-to-screw-up-bcrypt.html) - 一篇关于纠正BCrypt实现的文章
-* [Use Env](http://seancoates.com/blogs/use-env/) - 一篇关于使用unix环境帮助的文章
+* [Use Env](https://seancoates.com/blogs/use-env/) - 一篇关于使用unix环境帮助的文章
 
 ## PHP内核阅读 PHP Internals Reading
 *阅读PHP内核或性能相关的资料*
