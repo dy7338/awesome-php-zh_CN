@@ -310,7 +310,7 @@
 * [Shippable](https://app.shippable.com/) - 一个基于开源和私人项目持续集成平台的docker
 * [Sismo](http://sismo.sensiolabs.org/) - 一个持续测试的服务库
 * [Travis CI](https://travis-ci.org/) - 一个持续集成平台
-* [Wercker](http://wercker.com/) - 一个持续集成平台
+* [Wercker](http://www.wercker.com/) - 一个持续集成平台
 
 ## 文档 Documentation
 *生成项目文档的库*
@@ -356,6 +356,7 @@
 *分析，解析和处理代码库的库和工具*
 
 * [Athletic](https://github.com/polyfractal/athletic) - 一个基于注释的基准检测库
+* [Better Reflection](https://github.com/Roave/BetterReflection) - 基于AST的反射库，允许分析操作代码
 * [Code Climate](https://codeclimate.com) - 一个自动代码审查工具
 * [Dissect](https://github.com/jakubledl/dissect) - 一个词法和语法分析的工具集合
 * [Exakat](https://github.com/exakat/exakat) - 一个PHP的静态分析引擎
@@ -810,6 +811,7 @@
 * [PuPHPet](https://puphpet.com/) - 一个构建PHP开发虚拟机的web工具
 * [Puppet](https://puppet.com/) - 一个服务器自动化框架和应用
 * [Vagrant](https://www.vagrantup.com/) - 一个便携的开发环境工具
+* [Docker](https://www.docker.com/) - 一个容器化的平台
 
 ## 虚拟机 Virtual Machines
 *相关的PHP虚拟机*
@@ -904,6 +906,7 @@
 ## PHP视频 PHP Videos
 *PHP相关的非常不错的视频*
 
+* [Nomad PHP Lightning Talks](https://www.youtube.com/c/nomadphp) - PHP社区成员10到15分钟的快速会谈
 * [PHP Town Hall](https://phptownhall.com/) - 一个随意的Ben Edmunds和Phil Sturgeon的PHP播客
 * [PHP UK Conference](https://www.youtube.com/user/phpukconference/videos) - 一个PHP英国会议的视频集合
 * [Programming with Anthony](https://www.youtube.com/playlist?list=PLM-218uGSX3DQ3KsB5NJnuOqPqc5CW2kW) - Anthony Ferrara的视频系列
