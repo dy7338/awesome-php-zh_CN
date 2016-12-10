@@ -142,7 +142,7 @@
 * [Lumen](https://lumen.laravel.com) - 一个Laravel的微型框架
 * [Proton](https://github.com/alexbilbie/Proton) - 一个StackPHP兼容的微型框架
 * [Silex](http://silex.sensiolabs.org/) - 基于Symfony2组件的微型框架
-* [Slim](http://www.slimframework.com/) - 另一个简单的微型框架
+* [Slim](https://www.slimframework.com/) - 另一个简单的微型框架
 
 ## 其他微型框架 Micro Framework Extras
 *其他相关的微型框架和路由*
@@ -241,6 +241,7 @@
 * [Hoa Mime](https://github.com/hoaproject/Mime) - 另一个MIME检测库
 * [Lurker](https://github.com/henrikbjorn/Lurker) - 一个资源跟踪库
 * [PHP FFmpeg](https://github.com/PHP-FFmpeg/PHP-FFmpeg/) - 一个用于[FFmpeg](http://www.ffmpeg.org/)视频包装的库
+* [UnifiedArchive](https://github.com/wapmorgan/UnifiedArchive) - 一个统一标准的压缩和解压的库
 
 ## 流 Streams
 *处理流的库*
@@ -890,6 +891,7 @@
 * [Signaling PHP](https://leanpub.com/signalingphp) - 一本Cal Evans关于在CLI脚本捕获PCNTL信号的书
 * [The Grumpy Programmer's Guide to Building Testable PHP Applications](https://leanpub.com/grumpy-testing) - 一本Chris Hartjes关于构建PHP应用程序测试的书
 * [XML Parsing with PHP](https://www.phparch.com/books/xml-parsing-with-php/) - 这本书涵盖的解析和验证XML文档，利用XPath表达式，使用命名空间，以及如何创建和修改XML文件的编程
+* [Domain-Driven Design in PHP](https://leanpub.com/ddd-in-php) - 展示PHP DDD风格的实例
 
 ## 其他书籍 Other Books
 *与一般计算和web开发相关的书*
