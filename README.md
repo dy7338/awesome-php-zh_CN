@@ -77,6 +77,7 @@
     - [PHP书籍 PHP Books](#php书籍-php-books)
     - [其他书籍 Other Books](#其他书籍-other-books)
     - [PHP视频 PHP Videos](#php视频-php-videos)
+    - [PHP播客 PHP Podcasts](#php播客-php-podcasts)
     - [PHP阅读 PHP Reading](#php阅读-php-reading)
     - [PHP内核阅读 PHP Internals Reading](#php内核阅读-php-internals-reading)
     - [PHP杂志 PHP Magazines](#php杂志-php-magazines)
@@ -113,7 +114,7 @@
 * [Nette](https://nette.org) - 另一个由个体组件组成的框架
 * [Phalcon](https://phalconphp.com/en/) - 通过C扩展实现的框架
 * [PPI Framework 2](http://www.ppi.io) - 一个互操作性框架
-* [Symfony 2](http://symfony.com/) - 一个独立组件组成的框架 (SF2)
+* [Symfony 3](http://symfony.com/) - 一个独立组件组成的框架 (SF3)
 * [Yii2](https://github.com/yiisoft/yii2/) - 另一个PHP框架
 * [Zend Framework 2](https://framework.zend.com) - 另一个由独立组件组成的框架 (ZF2)
 * [Radar](https://github.com/radarphp/Radar.Adr) - 一个基于PHP的Action-Domain-Responder实现
@@ -449,7 +450,7 @@
 * [Munee](https://github.com/meenie/munee) - 一个资源优化库
 * [Pipe](https://github.com/CHH/pipe) - 另一个资源管理的管道库
 * [Puli](https://github.com/puli/repository) - 一个检测资源绝对路径的库
-* [BowerPHP](https://bowerphp.org/) - Bower的一个PHP实现，一个web包管理工具
+* [BowerPHP](https://github.com/Bee-Lab/bowerphp) - Bower的一个PHP实现，一个web包管理工具
 
 ## 地理位置 Geolocation
 *地理编码地址和使用纬度经度的库*
@@ -472,7 +473,7 @@
 *时间驱动或实现非阻塞事件循环的库*
 
 * [Amp](https://github.com/amphp/amp) - 一个事件驱动的不阻塞的I/O库
-* [Broadway](https://github.com/qandidate-labs/broadway) - 一个事件源和CQRS(命令查询责任分离)库
+* [Broadway](https://github.com/broadway/broadway) - 一个事件源和CQRS(命令查询责任分离)库
 * [Cake Event](https://github.com/cakephp/event) - 一个事件调度的库 (CP)
 * [Elephant.io](https://github.com/Wisembly/Elephant.io) - 另一个web socket库
 * [Evenement](https://github.com/igorw/evenement) - 一个事件调度的库
@@ -515,9 +516,9 @@
 *Libraries for working with office suite documents.*
 
 * [ExcelAnt](https://github.com/Wisembly/ExcelAnt) - 一个操作Excel文档的库
-* [PHPExcel](https://github.com/PHPOffice/PHPExcel) - 一个处理Excel文档的库
 * [PHPPowerPoint](https://github.com/PHPOffice/PHPPresentation) - 一个处理PPT文档的库
 * [PHPWord](https://github.com/PHPOffice/PHPWord) - 一个处理Word文档的库
+* [PHPSpreadsheet](https://github.com/PHPOffice/PhpSpreadsheet) - 一个纯PHP的读写电子表格的库 (successor of PHPExcel)
 
 ## 数据库 Database
 *使用对象关系映射（ORM）或数据映射技术的数据库交互的库*
@@ -698,6 +699,7 @@
 * [Knapsack](https://github.com/DusanKasan/Knapsack) - 一个集合的库，灵感来自Clojure的相关库
 * [PHP Collections](https://github.com/schmittjoh/php-collection) - 一个简单的集合库
 * [PINQ](https://github.com/TimeToogo/Pinq) - 一个基于.NET实现的PHP的LINQ(Language Integrated Query)库
+* [Porter](https://github.com/ScriptFUSION/Porter) - 数据导入的抽象框架
 * [Serializer](https://github.com/schmittjoh/serializer) - 一个序列化和反序列化数据的库
 * [Totem](https://github.com/Wisembly/Totem) - -一个管理和创建数据交换集的库
 * [YaLinqo](https://github.com/Athari/YaLinqo) - 另一个PHP的LINQ库
@@ -855,14 +857,14 @@
 * [Nomad PHP](https://nomadphp.com/) - 一个在线PHP学习资源
 * [PHP Best Practices](https://phpbestpractices.org/) - 一个PHP最佳实践指南
 * [PHP FIG](http://www.php-fig.org/) - PHP框架交互组
-* [PHP Mentoring](http://phpmentoring.org/) - 点对点PHP导师组织
+* [PHP Mentoring](https://php-mentoring.org/) - 点对点PHP导师组织
 * [PHP School](https://www.phpschool.io/) - 学习PHP的开源资源
 * [PHP Security](http://phpsecurity.readthedocs.io/en/latest/index.html) - 一个PHP安全指南
 * [PHP The Right Way](http://www.phptherightway.com/) - 一个PHP最佳实践的快速指引手册
 * [PHP UG](http://php.ug) - 一个帮助用户定位最近的PHP用户组(UG)的网站
 * [PHP Versions](http://phpversions.info/) - 哪些版本的PHP可以用在哪几种流行的Web主机上的列表
 * [PHP Weekly](http://www.phpweekly.com/archive.html) - 一个PHP新闻周刊
-* [PHPTrends](http://phptrends.com/) - 一个快速增长的PHP类库的概述
+* [PHPTrends](https://phptrends.com/) - 一个快速增长的PHP类库的概述
 * [Securing PHP](http://securingphp.com/) - 一个关于PHP安全和库的建议的简报
 * [Seven PHP](http://7php.com/) - 一个PHP社区成员采访的网站
 
@@ -909,10 +911,17 @@
 *PHP相关的非常不错的视频*
 
 * [Nomad PHP Lightning Talks](https://www.youtube.com/c/nomadphp) - PHP社区成员10到15分钟的快速会谈
-* [PHP Town Hall](https://phptownhall.com/) - 一个随意的Ben Edmunds和Phil Sturgeon的PHP播客
 * [PHP UK Conference](https://www.youtube.com/user/phpukconference/videos) - 一个PHP英国会议的视频集合
 * [Programming with Anthony](https://www.youtube.com/playlist?list=PLM-218uGSX3DQ3KsB5NJnuOqPqc5CW2kW) - Anthony Ferrara的视频系列
 * [Taking PHP Seriously](https://www.infoq.com/presentations/php-history) - 来自Facebook Keith Adams 讲述PHP优势
+
+
+## PHP播客 PHP Podcasts
+*专注于PHP话题的博客*
+
+* [PHP Town Hall](https://phptownhall.com/) - 一个随意的Ben Edmunds和Phil Sturgeon的PHP播客
+* [PHP Town Hall](https://phptownhall.com/) - A casual PHP podcast by Ben Edmunds and Phil Sturgeon.
+* [PHP Roundtable](https://www.phproundtable.com/) - PHP Roundtable是一个讨论PHP开发者关心话题的临时聚会
 
 ## PHP阅读 PHP Reading
 *PHP相关的阅读资料*
