@@ -114,7 +114,7 @@
 * [Nette](https://nette.org) - 另一个由个体组件组成的框架
 * [Phalcon](https://phalconphp.com/en/) - 通过C扩展实现的框架
 * [PPI Framework 2](http://www.ppi.io) - 一个互操作性框架
-* [Symfony 3](http://symfony.com/) - 一个独立组件组成的框架 (SF3)
+* [Symfony](https://symfony.com/) - 一个独立组件组成的框架 (SF)
 * [Yii2](https://github.com/yiisoft/yii2/) - 另一个PHP框架
 * [Zend Framework 2](https://framework.zend.com) - 另一个由独立组件组成的框架 (ZF2)
 * [Radar](https://github.com/radarphp/Radar.Adr) - 一个基于PHP的Action-Domain-Responder实现
@@ -133,7 +133,7 @@
 * [CakePHP Plugins](http://plugins.cakephp.org/) - CakePHP插件的目录
 * [Hoa Project](https://hoa-project.net/En/) - 另一个PHP组件包
 * [League of Extraordinary Packages](https://thephpleague.com/) - 一个PHP软件开发组
-* [Symfony2 Components](http://symfony.com/doc/master/components/index.html) - Symfony 2组件
+* [Symfony Components](http://symfony.com/doc/master/components/index.html) - Symfony组件
 * [Zend Framework 2 Components](https://packages.zendframework.com/) - Zend Framework 2组件
 
 ## 微型框架 Micro Frameworks
@@ -382,6 +382,7 @@
 * [PHPQA](https://github.com/EdgedesignCZ/phpqa) - 一个用于运行质量保证工具的工具(phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).
 * [PHPPHP](https://github.com/ircmaxell/PHPPHP) - 一个PHP实现的PHP虚拟机
 * [PHPSandbox](https://github.com/Corveda/PHPSandbox) - 一个PHP沙盒环境
+* [PHPStan](https://github.com/phpstan/phpstan) - 一个PHP静态分析工具
 * [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) - 一个可视化指标和源代码的工具
 * [Scrutinizer](https://scrutinizer-ci.com/) - 一个审查PHP代码的web工具
 * [UBench](https://github.com/devster/ubench) - 一个简单的微型基准检测库
@@ -915,12 +916,10 @@
 * [Programming with Anthony](https://www.youtube.com/playlist?list=PLM-218uGSX3DQ3KsB5NJnuOqPqc5CW2kW) - Anthony Ferrara的视频系列
 * [Taking PHP Seriously](https://www.infoq.com/presentations/php-history) - 来自Facebook Keith Adams 讲述PHP优势
 
-
 ## PHP播客 PHP Podcasts
 *专注于PHP话题的博客*
 
 * [PHP Town Hall](https://phptownhall.com/) - 一个随意的Ben Edmunds和Phil Sturgeon的PHP播客
-* [PHP Town Hall](https://phptownhall.com/) - A casual PHP podcast by Ben Edmunds and Phil Sturgeon.
 * [PHP Roundtable](https://www.phproundtable.com/) - PHP Roundtable是一个讨论PHP开发者关心话题的临时聚会
 
 ## PHP阅读 PHP Reading
