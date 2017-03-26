@@ -130,7 +130,7 @@
 ## 框架组件 Components
 *来自web开发框架的独立组件*
 
-* [CakePHP Plugins](http://plugins.cakephp.org/) - CakePHP插件的目录
+* [CakePHP Plugins](https://plugins.cakephp.org/) - CakePHP插件的目录
 * [Hoa Project](https://hoa-project.net/En/) - 另一个PHP组件包
 * [League of Extraordinary Packages](https://thephpleague.com/) - 一个PHP软件开发组
 * [Symfony Components](http://symfony.com/doc/master/components/index.html) - Symfony组件
@@ -255,6 +255,7 @@
 * [Acclimate](https://github.com/jeremeamia/acclimate-container) - 一个依赖注入容器和服务定位的通用接口
 * [Auryn](https://github.com/rdlowrey/Auryn) - 一个递归的依赖注入容器
 * [Container](https://github.com/thephpleague/container) - 另一个可伸缩的依赖注入容器
+* [Disco](https://github.com/bitExpert/disco) - 一个兼容PSR-11基于annotation的依赖注入容器
 * [PHP-DI](http://php-di.org/) - 一个支持自动装配和PHP配置的依赖注入容器
 * [Pimple](http://pimple.sensiolabs.org/) - 一个小的依赖注入容器
 * [Symfony DI](https://github.com/symfony/dependency-injection) - 一个依赖注入容器组件 (SF2)
@@ -409,7 +410,7 @@
 * [APM](http://pecl.php.net/package/APM) - 一个收集SQLite/MySQL/StatsD错误信息和统计信息的监控扩展
 * [Barbushin PHP Console](https://github.com/barbushin/php-console) - 另一个使用Google Chrome的web调试控制台
 * [Blackfire.io](https://blackfire.io) - 一个低开销的代码分析器
-* [Kint](https://github.com/raveren/kint) - 一个调试和分析工具
+* [Kint](https://github.com/kint-php/kint) - 一个调试和分析工具
 * [PHP Console](https://github.com/Seldaek/php-console) - 一个web调试控制台
 * [PHP Debug Bar](http://phpdebugbar.com/) - 一个调试工具栏
 * [PHPBench](https://github.com/phpbench/phpbench) - 一个基准测试框架
@@ -446,10 +447,8 @@
 ## 资源管理 Asset Management
 *管理，压缩和最小化web站点资源的工具*
 
-* [Assetic](https://github.com/kriswallsmith/assetic) - 一个资源管理的管道库
 * [JShrink](https://github.com/tedious/JShrink) - 一个JavaScript的最小化库
 * [Munee](https://github.com/meenie/munee) - 一个资源优化库
-* [Pipe](https://github.com/CHH/pipe) - 另一个资源管理的管道库
 * [Puli](https://github.com/puli/repository) - 一个检测资源绝对路径的库
 * [BowerPHP](https://github.com/Bee-Lab/bowerphp) - Bower的一个PHP实现，一个web包管理工具
 
@@ -469,6 +468,7 @@
 * [Chronos](https://github.com/cakephp/chronos) - 一个支持可变和不可变日期时间的DateTime API扩展
 * [ExpressiveDate](https://github.com/jasonlewis/expressive-date) - 另一个日期时间API扩展
 * [Moment.php](https://github.com/fightbulc/moment.php) - 灵感来源于Moment.js的PHP DateTime处理库，支持国际化
+* [Yasumi](https://github.com/azuyalabs/yasumi) - 一个帮助你计算节日日期和名称的库
 
 ## 事件 Event
 *时间驱动或实现非阻塞事件循环的库*
@@ -481,7 +481,6 @@
 * [Event](https://github.com/thephpleague/event) - 一个专注于域名事件的库
 * [Hoa EventSource](https://github.com/hoaproject/Eventsource) - 一个事件源库
 * [Hoa WebSocket](https://github.com/hoaproject/Websocket) - 另一个web socket库
-* [Icicle](https://github.com/icicleio/icicle) - 一个支持协同，非阻塞I/O，多线程的异步库
 * [Prooph Event Store](https://github.com/prooph/event-store) - 一个持久化事件消息的事件源组件
 * [Ratchet](https://github.com/ratchetphp/Ratchet) - 一个web socket库
 * [React](https://github.com/reactphp/react) - 一个事件驱动的非阻塞I/O库.
@@ -589,13 +588,12 @@
 * [Pecan](https://github.com/mcrumm/pecan) - 一个事件驱动和非阻塞的shell
 * [PsySH](https://github.com/bobthecow/psysh) - 另一个PHP REPL
 * [ShellWrap](https://github.com/MrRio/shellwrap) - -一个简单的命令行包装库
-* [Shunt](https://github.com/thephpleague/shunt) - 一个在多台远程机器上并行运行命令行的库
 
 ## 身份验证和授权 Authentication and Authorization
 *实现身份验证和授权的库*
 
 * [Hawk](https://github.com/dflydev/dflydev-hawk) - 一个Hawk HTTP身份认证库
-* [HybridAuth](https://github.com/hybridauth/hybridauth) - 一个开源的社交登陆库
+* [SocialConnect Auth](https://github.com/socialConnect/auth) - 一个开源的social sign (OAuth1\OAuth2\OpenID\OpenIDConnect)
 * [Json Web Token](https://github.com/lcobucci/jwt) - 使用JSON Tokens进行身份验证和信息传输
 * [Lock](https://github.com/BeatSwitch/lock) - 一种实现访问控制列表（ACL）系统的库
 * [OAuth 1.0 Client](https://github.com/thephpleague/oauth1-client) - 一个OAuth 1.0客户端的库
@@ -606,7 +604,7 @@
 * [PHP oAuthLib](https://github.com/Lusitanian/PHPoAuthLib) - 另一个OAuth库
 * [Sentinel Social](https://cartalyst.com/manual/sentinel-social/2.0) - 一个社交网络身份验证库
 * [Sentinel](https://cartalyst.com/manual/sentinel/2.0) - 一个混合的身份验证和授权的框架库
-* [TwitterOAuth](https://github.com/ruudk/twitteroauth) - 一个Twitter OAuth库
+* [TwitterOAuth](https://github.com/abraham/twitteroauth) - 一个Twitter OAuth库
 * [TwitterSDK](https://github.com/lyrixx/twitter-sdk) - 一个完全测试的Twitter SDK
 
 ## 标记 Markup
@@ -790,7 +788,7 @@
 * [Spork](https://github.com/kriswallsmith/spork) - 一个处理forking的库
 * [Sslurp](https://github.com/EvanDotPro/Sslurp) - 一个使得SSL处理减少的库
 * [SuperClosure](https://github.com/jeremeamia/super_closure) - 一个允许闭包序列化的库
-* [Symfony VarDumper](http://symfony.com/doc/current/components/var_dumper/introduction.html) - 一个dumper库(SF2)
+* [Symfony VarDumper](http://symfony.com/doc/current/components/var_dumper.html) - 一个dumper库(SF2)
 * [Underscore](http://anahkiasen.github.io/underscore-php/) - 一个Undersccore JS库的PHP实现
 * [Whoops](https://github.com/filp/whoops) - 一个不错的错误处理库
 
@@ -798,7 +796,7 @@
 *在你的电脑上帮助安装和管理PHP的工具*
 
 * [HomeBrew PHP](https://github.com/Homebrew/homebrew-php) - 一个HomeBrew的PHP通道
-* [HomeBrew](http://brew.sh/) - 一个OSX包管理器
+* [HomeBrew](https://brew.sh/) - 一个OSX包管理器
 * [PHP Brew](https://github.com/phpbrew/phpbrew) - 一个PHP版本管理和安装器
 * [PHP Build](https://github.com/php-build/php-build) - 另一个PHP版本安装器
 * [PHP Env](https://github.com/CHH/phpenv) - 另一个PHP版本管理器
@@ -859,7 +857,6 @@
 * [PHP Best Practices](https://phpbestpractices.org/) - 一个PHP最佳实践指南
 * [PHP FIG](http://www.php-fig.org/) - PHP框架交互组
 * [PHP Mentoring](https://php-mentoring.org/) - 点对点PHP导师组织
-* [PHP School](https://www.phpschool.io/) - 学习PHP的开源资源
 * [PHP Security](http://phpsecurity.readthedocs.io/en/latest/index.html) - 一个PHP安全指南
 * [PHP The Right Way](http://www.phptherightway.com/) - 一个PHP最佳实践的快速指引手册
 * [PHP UG](http://php.ug) - 一个帮助用户定位最近的PHP用户组(UG)的网站
@@ -872,7 +869,7 @@
 ## 其他网站 Other Websites
 *web开发相关的有用网站*
 
-* [Atlassian Git Tutorials](https://www.atlassian.com/git/) - 一个Git教程系列
+* [Atlassian Git Tutorials](https://www.atlassian.com/git) - 一个Git教程系列
 * [Hg Init](http://hginit.com/) - 一个Mercurial教程系列
 * [Semantic Versioning](http://semver.org/) - 一个解析语义版本的网站
 * [Servers for Hackers](https://serversforhackers.com/) - 一个关于服务器管理的新闻通讯
@@ -882,7 +879,7 @@
 ## PHP书籍 PHP Books
 *PHP相关的非常好的书籍*
 
-* [Functional Programming in PHP](http://www.functionalphp.com) - 这本书将告诉你如何利用PHP5.3+的新功能的认识函数式编程的原则
+* [Functional Programming in PHP](https://www.functionalphp.com/) - 这本书将告诉你如何利用PHP5.3+的新功能的认识函数式编程的原则
 * [Grumpy PHPUnit](https://leanpub.com/grumpy-phpunit) - 一本Chris Hartjes关于使用PHPUnit进行单元测试的书
 * [Mastering Object-Orientated PHP](http://www.brandonsavage.net) - 一本Brandon Savage关于PHP面向对象的书
 * [Modern PHP New Features and Good Practices](http://shop.oreilly.com/product/0636920033868.do) - 一本Josh Lockhart关于新的PHP功能和最佳做法的书
@@ -943,7 +940,7 @@
 
 * [Disproving the Single Quotes Myth](http://nikic.github.io/2012/01/09/Disproving-the-Single-Quotes-Performance-Myth.html) - 一篇关于单，双引号字符串性能的文章
 * [How Big Are PHP Arrays (And Values) Really?](http://nikic.github.io/2011/12/12/How-big-are-PHP-arrays-really-Hint-BIG.html) - 一篇关于数组原理的文章
-* [How Foreach Works](http://stackoverflow.com/questions/10057671/how-does-foreach-actually-work/14854568#14854568) - StackOverflow关于foreach回答的详情
+* [How Foreach Works](http://stackoverflow.com/questions/10057671/how-does-php-foreach-actually-work/14854568#14854568) - StackOverflow关于foreach回答的详情
 * [How Long is a Piece of String](http://blog.golemon.com/2006/06/how-long-is-piece-of-string.html) - 一篇关于字符串原理的文章
 * [PHP Evaluation Order](https://gist.github.com/nikic/6699370) - 一篇关于PHP评估顺序的文章
 * [PHP Internals Book](http://www.phpinternalsbook.com) - 一本由三名核心开发编写的关于PHP内核的在线书
