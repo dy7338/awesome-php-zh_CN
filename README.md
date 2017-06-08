@@ -83,11 +83,21 @@
     - [PHP杂志 PHP Magazines](#php杂志-php-magazines)
 - [贡献](#贡献)
 
+## Composer Repositories
+*Composer源*
+
+* [Firegento](http://packages.firegento.com/) - Magento模块Composer源
+* [Packagist](https://packagist.org/) - PHP包的源
+* [PaketHub](https://pakethub.com/) - 集成的PHP包的源
+* [Private Packagist](https://packagist.com/) - 一个PHP的服务，提供Composer包的存储
+* [WordPress Packagist](https://wpackagist.org/) - 使用Composer管理你的WordPress插件
+* [Zend Framework Packages](https://packages.zendframework.com/) - Zend Framework Composer源
+
 ## 依赖管理 Dependency Management
 *依赖和包管理库*
 
 * [Composer Installers](https://github.com/composer/installers) - 一个多框架Composer库安装器
-* [Composer](https://getcomposer.org/)/[Packagist](https://packagist.org/) - 一个包和依赖管理器
+* [Composer](https://getcomposer.org/) - 一个包和依赖管理器
 * [Melody](http://melody.sensiolabs.org/) - 一个用于构建Composer脚本文件的工具
 * [Pickle](https://github.com/FriendsOfPHP/pickle) - 一个PHP扩展安装器
 
@@ -108,7 +118,7 @@
 ## 框架 Frameworks
 *Web开发框架*
 
-* [Aura PHP](http://auraphp.com/) - 一个独立的组件框架
+* [Aura Framework](http://auraphp.com/framework/) - 一个独立的组件框架
 * [CakePHP](https://cakephp.org/) - 一个快速应用程序开发框架 (CP)
 * [Laravel 5](https://laravel.com/) - 另一个PHP框架 (L5)
 * [Nette](https://nette.org) - 另一个由个体组件组成的框架
@@ -117,7 +127,6 @@
 * [Symfony](https://symfony.com/) - 一个独立组件组成的框架 (SF)
 * [Yii2](https://github.com/yiisoft/yii2/) - 另一个PHP框架
 * [Zend Framework 2](https://framework.zend.com) - 另一个由独立组件组成的框架 (ZF2)
-* [Radar](https://github.com/radarphp/Radar.Adr) - 一个基于PHP的Action-Domain-Responder实现
 * [Ice](https://www.iceframework.org/) - 另一个通过C扩展实现的简单快速的PHP框架
 
 ## 其他框架 Framework Extras
@@ -130,6 +139,7 @@
 ## 框架组件 Components
 *来自web开发框架的独立组件*
 
+* [Aura](http://auraphp.com/) - 独立组件，完全解耦，不依赖于任何其他框架
 * [CakePHP Plugins](https://plugins.cakephp.org/) - CakePHP插件的目录
 * [Hoa Project](https://hoa-project.net/En/) - 另一个PHP组件包
 * [League of Extraordinary Packages](https://thephpleague.com/) - 一个PHP软件开发组
@@ -142,7 +152,8 @@
 * [Bullet PHP](http://bulletphp.com/) - 用于构建REST APIs的微型框架
 * [Lumen](https://lumen.laravel.com) - 一个Laravel的微型框架
 * [Proton](https://github.com/alexbilbie/Proton) - 一个StackPHP兼容的微型框架
-* [Silex](http://silex.sensiolabs.org/) - 基于Symfony2组件的微型框架
+* [Radar](https://github.com/radarphp/Radar.Adr) - 一个PHP的Action-Domain-Responder的实现
+* [Silex](https://silex.sensiolabs.org/) - 基于Symfony2组件的微型框架
 * [Slim](https://www.slimframework.com/) - 另一个简单的微型框架
 
 ## 其他微型框架 Micro Framework Extras
@@ -156,6 +167,7 @@
 ## 路由 Routers
 *处理应用路由的库*
 
+* [Aura.Router](https://github.com/auraphp/Aura.Router) - 一个全功能的路由库
 * [Fast Route](https://github.com/nikic/FastRoute) - 一个快速路由的库
 * [Klein](https://github.com/klein/klein.php) - 一个灵活的路由的库
 * [Pux](https://github.com/c9s/Pux) - 另一个快速路由的库
@@ -164,6 +176,7 @@
 ## 模板 Templating
 *模板化和词法分析的库和工具*
 
+* [Aura.View](https://github.com/auraphp/Aura.View) - 提供TemplateView和TwoStepView，支持partials, sections和helpers
 * [Foil](https://github.com/FoilPHP/Foil) - 另一个原生PHP模板库
 * [Lex](https://github.com/pyrocms/lex) - 一个轻量级模板解析器
 * [MtHaml](https://github.com/arnaud-lb/MtHaml) - 一个HAML模板语言的PHP实现
@@ -172,7 +185,7 @@
 * [PHPTAL](http://phptal.org/) - 一个[TAL](https://en.wikipedia.org/wiki/Template_Attribute_Language)模板语言的PHP实现
 * [Plates](http://platesphp.com/) - 一个原生PHP模板库
 * [Smarty](http://www.smarty.net/) - 一个模板引擎
-* [Twig](http://twig.sensiolabs.org/) - 一个全面的模板语言
+* [Twig](https://twig.sensiolabs.org/) - 一个全面的模板语言
 * [Tale Jade](https://github.com/Talesoft/tale-jade) - Jade模版语言的PHP实现
 
 ## 静态站点生成器 Static Site Generators
@@ -252,7 +265,8 @@
 ## 依赖注入 Dependency Injection
 *实现依赖注入设计模式的库*
 
-* [Acclimate](https://github.com/jeremeamia/acclimate-container) - 一个依赖注入容器和服务定位的通用接口
+* [Aura.Di](https://github.com/auraphp/Aura.Di) - 一个依赖注入容器
+* [Acclimate](https://github.com/AcclimateContainer/acclimate-container) - 一个依赖注入容器和服务定位的通用接口
 * [Auryn](https://github.com/rdlowrey/Auryn) - 一个递归的依赖注入容器
 * [Container](https://github.com/thephpleague/container) - 另一个可伸缩的依赖注入容器
 * [Disco](https://github.com/bitExpert/disco) - 一个兼容PSR-11基于annotation的依赖注入容器
@@ -287,7 +301,7 @@
 * [HTTP Mock](https://github.com/InterNations/http-mock) - 一个在单元测试模拟HTTP请求的库
 * [Kahlan](https://github.com/kahlan/kahlan) - 全栈Unit/BDD测试框架，内置stub，mock和代码覆盖率的支持
 * [Mink](http://mink.behat.org/en/latest/) - Web验收测试
-* [Mockery](https://github.com/padraic/mockery) - 一个用于测试的模拟对象的库
+* [Mockery](https://github.com/mockery/mockery) - 一个用于测试的模拟对象的库
 * [ParaTest](https://github.com/brianium/paratest) - 一个PHPUnit的并行测试库
 * [Peridot](https://github.com/peridot-php/peridot) - 一个事件驱动开发的测试框架
 * [Phake](https://github.com/mlively/Phake) - 另一个用于测试的模拟对象的库
@@ -335,11 +349,11 @@
 * [PHP IDS](https://github.com/PHPIDS/PHPIDS) - 一个结构化的PHP安全层
 * [PHP SSH](https://github.com/Herzult/php-ssh) - 一个试验的面向对象的SSH包装库
 * [PHPSecLib](http://phpseclib.sourceforge.net/) - 一个纯PHP安全通信库
+* [random_compat](https://github.com/paragonie/random_compat) - PHP 5.x 支持`random_bytes()`和`random_int()`
 * [RandomLib](https://github.com/ircmaxell/RandomLib) - 一个生成随机数和字符串的库
 * [SecurityMultiTool](https://github.com/padraic/SecurityMultiTool) - 一个PHP安全库
 * [SensioLabs Security Check](https://security.sensiolabs.org/) - 一个为检查Composer依赖提供安全建议的web工具
 * [TCrypto](https://github.com/timoh6/TCrypto) - 一个简单的键值加密存储库
-* [True Random](https://github.com/pixeloution/true-random) - 使用[www.random.org](https://www.random.org/)生成随机数的库
 * [VAddy](https://vaddy.net/) - 一个持续安全的web应用测试平台
 * [Zed](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) - 一个集成的web应用渗透测试工具
 
@@ -523,6 +537,8 @@
 ## 数据库 Database
 *使用对象关系映射（ORM）或数据映射技术的数据库交互的库*
 
+* [Aura.Sql](https://github.com/auraphp/Aura.Sql) - 一个使用PDO的ORM
+* [Aura.SqlQuery](https://github.com/auraphp/Aura.SqlQuery) - 支持MySQL, PostgreSQL, SQLite和Microsoft SQL Server的ORM
 * [Baum](https://github.com/etrepat/baum) - 一个Eloquent的嵌套集实现
 * [Cake ORM](https://github.com/cakephp/orm) - 对象关系映射工具，利用DataMapper模式实现 (CP)
 * [Doctrine Extensions](https://github.com/Atlantic18/DoctrineExtensions) - 一个Doctrine行为扩展的集合
@@ -533,7 +549,7 @@
 * [Propel](http://propelorm.org/) - 一个快速的ORM，迁移库和查询构架器
 * [ProxyManager](https://github.com/Ocramius/ProxyManager) - 一个为数据映射生成代理对象的工具集
 * [RedBean](http://redbeanphp.com/index.php) - 一个轻量级，低配置的ORM
-* [Spot2](https://github.com/vlucas/spot2) - 一个MySQL的ORM映射器
+* [Spot2](https://github.com/spotorm/spot2) - 一个MySQL的ORM映射器
 
 ## 迁移 Migrations
 *帮助管理数据库模式和迁移的库*
@@ -574,6 +590,7 @@
 ## 命令行 Command Line
 *关于命令行工具的库*
 
+* [Aura.Cli](https://github.com/auraphp/Aura.Cli) - 一个命令行库
 * [Boris](https://github.com/borisrepl/boris) - 一个微型PHP REPL
 * [Cilex](https://github.com/Cilex/Cilex) - 一个构建命令行工具的微型框架
 * [CLI Menu](https://github.com/php-school/cli-menu) - 一个构建CLI菜单的库
@@ -592,6 +609,7 @@
 ## 身份验证和授权 Authentication and Authorization
 *实现身份验证和授权的库*
 
+* [Aura.Auth](https://github.com/auraphp/Aura.Auth) - 一个身份认证的库
 * [Hawk](https://github.com/dflydev/dflydev-hawk) - 一个Hawk HTTP身份认证库
 * [SocialConnect Auth](https://github.com/socialConnect/auth) - 一个开源的social sign (OAuth1\OAuth2\OpenID\OpenIDConnect)
 * [Json Web Token](https://github.com/lcobucci/jwt) - 使用JSON Tokens进行身份验证和信息传输
@@ -652,6 +670,7 @@
 ## 过滤和验证 Filtering and Validation
 *过滤和验证数据的库*
 
+* [Aura.Filter](https://github.com/auraphp/Aura.Filter) - 一个验证库
 * [Cake Validation](https://github.com/cakephp/validation) - 另一个验证库 (CP)
 * [DMS Filter](https://github.com/rdohms/DMS-Filter) - 一个注释过滤库
 * [Filterus](https://github.com/ircmaxell/filterus) - 一个简单的PHP过滤库
@@ -726,6 +745,7 @@
 ## 国际化和本地化 Internationalisation and Localisation
 *国际化(I18n)和本地化(L10n)的库*
 
+* [Aura.Intl](https://github.com/auraphp/Aura.Intl) - 一个国际化的库
 * [Cake I18n](https://github.com/cakephp/i18n) - 消息国际化和日期和数字的本地化 (CP)
 
 ## 第三方API Third Party APIs
@@ -857,6 +877,8 @@
 * [PHP Best Practices](https://phpbestpractices.org/) - 一个PHP最佳实践指南
 * [PHP FIG](http://www.php-fig.org/) - PHP框架交互组
 * [PHP Mentoring](https://php-mentoring.org/) - 点对点PHP导师组织
+* [PHP Package Development Standards](http://php-pds.com) - PHP包开发标准
+* [PHP School](https://www.phpschool.io/) - PHP的开源学习
 * [PHP Security](http://phpsecurity.readthedocs.io/en/latest/index.html) - 一个PHP安全指南
 * [PHP The Right Way](http://www.phptherightway.com/) - 一个PHP最佳实践的快速指引手册
 * [PHP UG](http://php.ug) - 一个帮助用户定位最近的PHP用户组(UG)的网站
@@ -883,7 +905,7 @@
 * [Grumpy PHPUnit](https://leanpub.com/grumpy-phpunit) - 一本Chris Hartjes关于使用PHPUnit进行单元测试的书
 * [Mastering Object-Orientated PHP](http://www.brandonsavage.net) - 一本Brandon Savage关于PHP面向对象的书
 * [Modern PHP New Features and Good Practices](http://shop.oreilly.com/product/0636920033868.do) - 一本Josh Lockhart关于新的PHP功能和最佳做法的书
-* [Modernising Legacy Applications in PHP](https://leanpub.com/mlaphp) - 一本Paul M.Jones关于遗留PHP应用进行现代化的书
+* [Modernizing Legacy Applications in PHP](https://leanpub.com/mlaphp) - 一本Paul M.Jones关于遗留PHP应用进行现代化的书
 * [PHP 7 Upgrade Guide](https://leanpub.com/php7) - 一本Colin O'Dell的包含所有PHP 7功能和改变的书
 * [PHP Pandas](https://daylerees.com/php-pandas/) - 一本Dayle Rees关于如何学习写PHP的书
 * [Scaling PHP Applications](http://www.scalingphpbook.com) - 一本Steve Corona关于扩展PHP应用程序的电子书
