@@ -6,6 +6,7 @@
 
 ## 目录
 - [Awesome PHP](#awesome-php)
+    - [Composer源 Composer Repositories](#composer源-composer-repositories)
     - [依赖管理 Dependency Management](#依赖管理-dependency-management)
     - [其他的依赖管理 Dependency Management Extras](#其他的依赖管理-dependency-management-extras)
     - [框架 Frameworks](#框架-frameworks)
@@ -83,7 +84,7 @@
     - [PHP杂志 PHP Magazines](#php杂志-php-magazines)
 - [贡献](#贡献)
 
-## Composer Repositories
+## Composer源 Composer Repositories
 *Composer源*
 
 * [Firegento](http://packages.firegento.com/) - Magento模块Composer源
@@ -133,7 +134,7 @@
 *其他Web开发框架*
 
 * [CakePHP CRUD](https://github.com/friendsofcake/crud) - CakePHP的快速应用程序（RAD）插件
-* [Knp RAD Bundle](http://rad.knplabs.com/) - Symfony 2的快速应用程序（RAD）包
+* [Knp RAD Components](http://rad.knplabs.com/) - Symfony 2的快速应用程序（RAD）包
 * [Symfony CMF](https://github.com/symfony-cmf/symfony-cmf) - 一个创建自定义CMS的内容管理框架
 
 ## 框架组件 Components
@@ -144,7 +145,7 @@
 * [Hoa Project](https://hoa-project.net/En/) - 另一个PHP组件包
 * [League of Extraordinary Packages](https://thephpleague.com/) - 一个PHP软件开发组
 * [Symfony Components](http://symfony.com/doc/master/components/index.html) - Symfony组件
-* [Zend Framework 2 Components](https://packages.zendframework.com/) - Zend Framework 2组件
+* [Zend Framework 2 Components](https://docs.zendframework.com/) - Zend Framework 2组件
 
 ## 微型框架 Micro Frameworks
 *微型框架和路由*
@@ -153,7 +154,7 @@
 * [Lumen](https://lumen.laravel.com) - 一个Laravel的微型框架
 * [Proton](https://github.com/alexbilbie/Proton) - 一个StackPHP兼容的微型框架
 * [Radar](https://github.com/radarphp/Radar.Adr) - 一个PHP的Action-Domain-Responder的实现
-* [Silex](https://silex.sensiolabs.org/) - 基于Symfony2组件的微型框架
+* [Silex](https://silex.symfony.com/) - 基于Symfony2组件的微型框架
 * [Slim](https://www.slimframework.com/) - 另一个简单的微型框架
 
 ## 其他微型框架 Micro Framework Extras
@@ -184,8 +185,8 @@
 * [Phly Mustache](https://github.com/phly/phly_mustache) - 另一个Mustache模板语言的PHP实现
 * [PHPTAL](http://phptal.org/) - 一个[TAL](https://en.wikipedia.org/wiki/Template_Attribute_Language)模板语言的PHP实现
 * [Plates](http://platesphp.com/) - 一个原生PHP模板库
-* [Smarty](http://www.smarty.net/) - 一个模板引擎
-* [Twig](https://twig.sensiolabs.org/) - 一个全面的模板语言
+* [Smarty](https://www.smarty.net/) - 一个模板引擎
+* [Twig](https://twig.symfony.com/) - 一个全面的模板语言
 * [Tale Jade](https://github.com/Talesoft/tale-jade) - Jade模版语言的PHP实现
 
 ## 静态站点生成器 Static Site Generators
@@ -240,8 +241,8 @@
 * [Fetch](https://github.com/tedious/Fetch) - 一个IMAP库
 * [Mautic](https://github.com/mautic/mautic) - 邮件营销自动化
 * [PHPMailer](https://github.com/PHPMailer/PHPMailer) - 另一个邮件解决方案
-* [Stampie](https://github.com/henrikbjorn/Stampie) - 一个邮件服务库，类似于[SendGrid](http://sendgrid.com),[PostMark](https://postmarkapp.com),[MailGun](http://www.mailgun.com)和[Mandrill](http://www.mandrill.com).
-* [SwiftMailer](http://swiftmailer.org/) - 一个邮件解决方案
+* [Stampie](https://github.com/Stampie/Stampie) - 一个邮件服务库，类似于[SendGrid](http://sendgrid.com),[PostMark](https://postmarkapp.com),[MailGun](http://www.mailgun.com)和[Mandrill](http://www.mandrill.com).
+* [SwiftMailer](https://swiftmailer.symfony.com) - 一个邮件解决方案
 
 ## 文件 Files
 *文件处理和MIME类型检测的库*
@@ -271,7 +272,7 @@
 * [Container](https://github.com/thephpleague/container) - 另一个可伸缩的依赖注入容器
 * [Disco](https://github.com/bitExpert/disco) - 一个兼容PSR-11基于annotation的依赖注入容器
 * [PHP-DI](http://php-di.org/) - 一个支持自动装配和PHP配置的依赖注入容器
-* [Pimple](http://pimple.sensiolabs.org/) - 一个小的依赖注入容器
+* [Pimple](https://pimple.symfony.com/) - 一个小的依赖注入容器
 * [Symfony DI](https://github.com/symfony/dependency-injection) - 一个依赖注入容器组件 (SF2)
 
 ## 图像 Imagery
@@ -325,7 +326,7 @@
 * [PHPCI](https://www.phptesting.org/) - 一个PHP的开源的持续集成平台
 * [SemaphoreCI](https://semaphoreci.com/) - 一个开放源码和私人项目的持续集成平台
 * [Shippable](https://app.shippable.com/) - 一个基于开源和私人项目持续集成平台的docker
-* [Sismo](http://sismo.sensiolabs.org/) - 一个持续测试的服务库
+* [Sismo](https://sismo.symfony.com/) - 一个持续测试的服务库
 * [Travis CI](https://travis-ci.org/) - 一个持续集成平台
 * [Wercker](http://www.wercker.com/) - 一个持续集成平台
 
@@ -556,7 +557,7 @@
 
 * [Doctrine Migrations](http://docs.doctrine-project.org/projects/doctrine-migrations/en/latest/toc.html) - 一个Doctrine的迁移库
 * [Migrations](https://github.com/icomefromthenet/Migrations) - 一个迁移管理库
-* [Phinx](https://github.com/robmorgan/phinx) - 另一个数据库迁移的管理库
+* [Phinx](https://github.com/cakephp/phinx) - 另一个数据库迁移的管理库
 * [PHPMig](https://github.com/davedevelopment/phpmig) - 另一个迁移管理库
 * [Ruckusing](https://github.com/ruckus/ruckusing-migrations) - 基于PHP下ActiveRecord的数据库迁移，支持MySQL, Postgres, SQLite
 
@@ -598,7 +599,7 @@
 * [CLImate](https://github.com/thephpleague/climate) - 一个输出带颜色的和特殊格式的命令行库
 * [Commando](https://github.com/nategood/commando) - 另一个简单的命令行选择解析器
 * [Cron Expression](https://github.com/mtdowling/cron-expression) - 一个计算cron运行日期的库
-* [GetOpt](https://github.com/ulrichsg/getopt-php) - 一个命令行选择解析器
+* [GetOpt](https://github.com/getopt-php/getopt-php) - 一个命令行选择解析器
 * [GetOptionKit](https://github.com/c9s/GetOptionKit) - 另一个命令行选择解析器
 * [Hoa Console](https://github.com/hoaproject/Console) - 另一个命令行库
 * [OptParse](https://github.com/CHH/optparse) - 另一个命令行选择解析器
@@ -697,7 +698,7 @@
 *缓存数据的库*
 
 * [Alternative PHP Cache (APC)](http://php.net/manual/en/book.apc.php) - 打开PHP操作码缓存
-* [APIx Cache](https://github.com/frqnck/apix-cache) -  一个轻量级的PSR-6缓存
+* [APIx Cache](https://github.com/apix/cache) -  一个轻量级的PSR-6缓存
 * [CacheTool](https://github.com/gordalina/cachetool) - 一个使用命令行清除apc/opcode缓存的工具
 * [Cake Cache](https://github.com/cakephp/cache) - 一个缓存库 (CP)
 * [Doctrine Cache](https://github.com/doctrine/cache) - 一个缓存库
@@ -886,7 +887,7 @@
 * [PHP Weekly](http://www.phpweekly.com/archive.html) - 一个PHP新闻周刊
 * [PHPTrends](https://phptrends.com/) - 一个快速增长的PHP类库的概述
 * [Securing PHP](http://securingphp.com/) - 一个关于PHP安全和库的建议的简报
-* [Seven PHP](http://7php.com/) - 一个PHP社区成员采访的网站
+* [Seven PHP](https://7php.com/) - 一个PHP社区成员采访的网站
 
 ## 其他网站 Other Websites
 *web开发相关的有用网站*
@@ -962,7 +963,7 @@
 
 * [Disproving the Single Quotes Myth](http://nikic.github.io/2012/01/09/Disproving-the-Single-Quotes-Performance-Myth.html) - 一篇关于单，双引号字符串性能的文章
 * [How Big Are PHP Arrays (And Values) Really?](http://nikic.github.io/2011/12/12/How-big-are-PHP-arrays-really-Hint-BIG.html) - 一篇关于数组原理的文章
-* [How Foreach Works](http://stackoverflow.com/questions/10057671/how-does-php-foreach-actually-work/14854568#14854568) - StackOverflow关于foreach回答的详情
+* [How Foreach Works](https://stackoverflow.com/questions/10057671/how-does-php-foreach-actually-work/14854568#14854568) - StackOverflow关于foreach回答的详情
 * [How Long is a Piece of String](http://blog.golemon.com/2006/06/how-long-is-piece-of-string.html) - 一篇关于字符串原理的文章
 * [PHP Evaluation Order](https://gist.github.com/nikic/6699370) - 一篇关于PHP评估顺序的文章
 * [PHP Internals Book](http://www.phpinternalsbook.com) - 一本由三名核心开发编写的关于PHP内核的在线书
