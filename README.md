@@ -390,7 +390,7 @@
 * [PHP Parser](https://github.com/nikic/PHP-Parser) - 一个PHP编写的PHP解析器
 * [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) - 一个重构PHP代码的命令行工具集
 * [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) - 一个比较两个源集和确定适当的应用语义版本的命令行实用程序
-* [phan](https://github.com/etsy/phan) - 一个基于PHP 7+和php-ast扩展的静态分析器
+* [phan](https://github.com/phan/phan) - 一个基于PHP 7+和php-ast扩展的静态分析器
 * [PHPCheckstyle](https://github.com/PHPCheckstyle/phpcheckstyle) - 一个帮助遵守特定的编码惯例的工具
 * [PHPCPD](https://github.com/sebastianbergmann/phpcpd) - 一个检测复制和粘贴代码的库
 * [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) - 一个创建可定制依赖图的工具
@@ -429,7 +429,6 @@
 * [PHP Console](https://github.com/Seldaek/php-console) - 一个web调试控制台
 * [PHP Debug Bar](http://phpdebugbar.com/) - 一个调试工具栏
 * [PHPBench](https://github.com/phpbench/phpbench) - 一个基准测试框架
-* [PHPDBG](http://phpdbg.com/) - 一个交互的PHP调试器
 * [Tideways.io](https://tideways.io/) - Monitoring and profiling tool
 * [Tracy](https://github.com/nette/tracy) - A一个简单的错误检测，写日志和时间测量库
 * [xDebug](https://github.com/xdebug/xdebug) - 一个调试和分析PHP的工具
@@ -549,7 +548,7 @@
 * [Pomm](https://github.com/chanmix51/Pomm) - 一个PostgreSQL对象模型管理器
 * [Propel](http://propelorm.org/) - 一个快速的ORM，迁移库和查询构架器
 * [ProxyManager](https://github.com/Ocramius/ProxyManager) - 一个为数据映射生成代理对象的工具集
-* [RedBean](http://redbeanphp.com/index.php) - 一个轻量级，低配置的ORM
+* [RedBean](https://redbeanphp.com/index.php) - 一个轻量级，低配置的ORM
 * [Spot2](https://github.com/spotorm/spot2) - 一个MySQL的ORM映射器
 
 ## 迁移 Migrations
@@ -614,7 +613,6 @@
 * [Hawk](https://github.com/dflydev/dflydev-hawk) - 一个Hawk HTTP身份认证库
 * [SocialConnect Auth](https://github.com/socialConnect/auth) - 一个开源的social sign (OAuth1\OAuth2\OpenID\OpenIDConnect)
 * [Json Web Token](https://github.com/lcobucci/jwt) - 使用JSON Tokens进行身份验证和信息传输
-* [Lock](https://github.com/BeatSwitch/lock) - 一种实现访问控制列表（ACL）系统的库
 * [OAuth 1.0 Client](https://github.com/thephpleague/oauth1-client) - 一个OAuth 1.0客户端的库
 * [OAuth 2.0 Client](https://github.com/thephpleague/oauth2-client) - 一个OAuth 2.0客户端的库
 * [OAuth2 Server](http://bshaffer.github.io/oauth2-server-php-docs/) - 另一个OAuth2服务器实现
@@ -904,7 +902,7 @@
 
 * [Functional Programming in PHP](https://www.functionalphp.com/) - 这本书将告诉你如何利用PHP5.3+的新功能的认识函数式编程的原则
 * [Grumpy PHPUnit](https://leanpub.com/grumpy-phpunit) - 一本Chris Hartjes关于使用PHPUnit进行单元测试的书
-* [Mastering Object-Orientated PHP](http://www.brandonsavage.net) - 一本Brandon Savage关于PHP面向对象的书
+* [Mastering Object-Orientated PHP](https://www.brandonsavage.net/) - 一本Brandon Savage关于PHP面向对象的书
 * [Modern PHP New Features and Good Practices](http://shop.oreilly.com/product/0636920033868.do) - 一本Josh Lockhart关于新的PHP功能和最佳做法的书
 * [Modernizing Legacy Applications in PHP](https://leanpub.com/mlaphp) - 一本Paul M.Jones关于遗留PHP应用进行现代化的书
 * [PHP 7 Upgrade Guide](https://leanpub.com/php7) - 一本Colin O'Dell的包含所有PHP 7功能和改变的书
