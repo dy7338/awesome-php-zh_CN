@@ -124,7 +124,7 @@
 * [Laravel 5](https://laravel.com/) - 另一个PHP框架 (L5)
 * [Nette](https://nette.org) - 另一个由个体组件组成的框架
 * [Phalcon](https://phalconphp.com/en/) - 通过C扩展实现的框架
-* [PPI Framework 2](http://www.ppi.io) - 一个互操作性框架
+* [PPI Framework 2](https://github.com/ppi) - 一个互操作性框架
 * [Symfony](https://symfony.com/) - 一个独立组件组成的框架 (SF)
 * [Yii2](https://github.com/yiisoft/yii2/) - 另一个PHP框架
 * [Zend Framework 2](https://framework.zend.com) - 另一个由独立组件组成的框架 (ZF2)
@@ -229,7 +229,7 @@
 
 * [PHP Domain Parser](https://github.com/jeremykendall/php-domain-parser) - 一个本地前缀解析库
 * [Purl](https://github.com/jwage/purl) - 一个URL处理库
-* [sabre/uri](https://github.com/fruux/sabre-uri) - 一个URI操作库
+* [sabre/uri](https://github.com/sabre-io/uri) - 一个URI操作库
 * [Uri](https://github.com/thephpleague/uri) - 另一个URL处理库
 
 ## 电子邮件 Email
@@ -772,6 +772,7 @@
 *创建一个开发环境的软件*
 
 * [Annotations](https://github.com/doctrine/annotations) - 一个注释库(Doctrine的一部分)
+* [BotMan](https://github.com/botman/botman) - 一个构建跨平台聊天机器人的PHP框架库
 * [Cake Utility](https://github.com/cakephp/utility) - 工具类如Inflector，字符串，哈希，安全和XML (CP)
 * [Chief](https://github.com/adamnicholson/Chief) - 一个命令总线库
 * [ClassPreloader](https://github.com/ClassPreloader/ClassPreloader) - 一个优化自动加载的库
@@ -802,7 +803,7 @@
 * [Procrastinator](https://github.com/lstrojny/Procrastinator) - 一个运行耗时任务的库
 * [Prooph Service Bus](https://github.com/prooph/service-bus) - 轻量级的消息总线，支持CQRS和微服务
 * [RMT](https://github.com/liip/RMT) - 一个编写版本和发布软件的库
-* [sabre/vobject](https://github.com/fruux/sabre-vobject) - 一个解析VCard和iCalendar对象的库
+* [sabre/vobject](https://github.com/sabre-io/vobject) - 一个解析VCard和iCalendar对象的库
 * [Slimdump](https://github.com/webfactory/slimdump) - 一个简单的MySQL dumper工具
 * [Spork](https://github.com/kriswallsmith/spork) - 一个处理forking的库
 * [Sslurp](https://github.com/EvanDotPro/Sslurp) - 一个使得SSL处理减少的库
@@ -862,11 +863,12 @@
 * [phpMyAdmin](https://github.com/phpmyadmin/phpmyadmin) - 一个MySQL/MariaDB的web界面
 * [Adminer](https://www.adminer.org/) - 一个数据库管理工具
 * [Grav](https://github.com/getgrav/grav) - 一个现代的flat－file的CMS
+* [Lychee](https://github.com/electerious/Lychee) - 一个易于使用和好看的照片管理系统
 
 ## 基础架构 Infrastructure
 *提供PHP应用和服务的基础架构*
 
-* [appserver.io](http://appserver.io/) - 一个用PHP写的多线程的PHP应用服务器
+* [appserver.io](https://appserver.io/) - 一个用PHP写的多线程的PHP应用服务器
 * [php-pm](https://github.com/php-pm/php-pm) - 一个PHP应用的进程管理器、修改器和负载平衡器
 
 ## PHP网站 PHP Websites
@@ -892,7 +894,7 @@
 
 * [Atlassian Git Tutorials](https://www.atlassian.com/git) - 一个Git教程系列
 * [Hg Init](http://hginit.com/) - 一个Mercurial教程系列
-* [Semantic Versioning](http://semver.org/) - 一个解析语义版本的网站
+* [Semantic Versioning](https://semver.org/) - 一个解析语义版本的网站
 * [Servers for Hackers](https://serversforhackers.com/) - 一个关于服务器管理的新闻通讯
 * [The Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page) - 一个开放软件安全社区
 * [WebSec IO](https://websec.io/) - 一个web安全社区资源
@@ -947,13 +949,13 @@
 * [Composer Stability Flags](https://igor.io/2013/02/07/composer-stability-flags.html) - 一篇关于Composer稳定性标志的文章
 * [Composer Versioning](https://igor.io/2013/01/07/composer-versioning.html) - 一篇关于Composer版本的文章
 * [Create Your Own PHP Framework](http://fabien.potencier.org/create-your-own-framework-on-top-of-the-symfony2-components-part-1.html) - 一部Fabien Potencier的关于如何创建你自己的PHP框架的系列文章
-* [Don't Worry About BREACH](http://blog.ircmaxell.com/2013/08/dont-worry-about-breach.html) - 一篇关于BREACH攻击和CSRF令牌的文章
+* [Don't Worry About BREACH](https://blog.ircmaxell.com/2013/08/dont-worry-about-breach.html) - 一篇关于BREACH攻击和CSRF令牌的文章
 * [On PHP 5.3, Lambda Functions and Closures](http://fabien.potencier.org/on-php-5-3-lambda-functions-and-closures.html) - 一篇关于lambda函数和闭包的文章
 * [PHP Is Much Better Than You Think](http://fabien.potencier.org/php-is-much-better-than-you-think.html) - 一篇关于PHP语言和生态圈的文章
 * [PHP Package Checklist](http://phppackagechecklist.com/) - 一个成功PHP包开发的清单
-* [PHP Sucks! But I Like It!](http://blog.ircmaxell.com/2012/04/php-sucks-but-i-like-it.html) - 一篇关于PHP利弊的文章
-* [Preventing CSRF Attacks](http://blog.ircmaxell.com/2013/02/preventing-csrf-attacks.html) - 一篇阻止CSRF攻击的文章
-* [Seven Ways to Screw Up BCrypt](http://blog.ircmaxell.com/2012/12/seven-ways-to-screw-up-bcrypt.html) - 一篇关于纠正BCrypt实现的文章
+* [PHP Sucks! But I Like It!](https://blog.ircmaxell.com/2012/04/php-sucks-but-i-like-it.html) - 一篇关于PHP利弊的文章
+* [Preventing CSRF Attacks](https://blog.ircmaxell.com/2013/02/preventing-csrf-attacks.html) - 一篇阻止CSRF攻击的文章
+* [Seven Ways to Screw Up BCrypt](https://blog.ircmaxell.com/2012/12/seven-ways-to-screw-up-bcrypt.html) - 一篇关于纠正BCrypt实现的文章
 * [Use Env](https://seancoates.com/blogs/use-env/) - 一篇关于使用unix环境帮助的文章
 
 ## PHP内核阅读 PHP Internals Reading
