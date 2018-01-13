@@ -32,6 +32,8 @@
     - [安全 Security](#安全-security)
     - [密码 Passwords](#密码-passwords)
     - [代码分析 Code Analysis](#代码分析-code-analysis)
+    - [代码质量 Code Quality](#代码质量-code-quality)
+    - [静态分析 Static Analysis](#静态分析-static-analysis)
     - [Architectural Architectural](#architectural-architectural)
     - [调试和分析 Debugging and Profiling](#调试和分析-debugging-and-profiling)
     - [构建工具 Build Tools](#构建工具-build-tools)
@@ -69,7 +71,7 @@
     - [PHP安装 PHP Installation](#PHP安装-php-installation)
     - [开发环境 Development Environment](#开发环境-development-environment)
     - [虚拟机 Virtual Machines](#虚拟机-virtual-machines)
-    - [集成开发环境(IDE) Integrated Development Environment](#集成开发环境ide-integrated-development-environment)
+    - [文本编辑器和IDE Text Editors and IDEs](#文本编辑器和ide-text-editors-and-ides)
     - [Web应用 Web Applications](#web应用-web-applications)
     - [基础架构 Infrastructure](#基础架构-infrastructure)
 - [资源 Resources](#资源-resources)
@@ -203,6 +205,7 @@
 * [Buzz](https://github.com/kriswallsmith/Buzz) - 另一个HTTP客户端
 * [Guzzle]( https://github.com/guzzle/guzzle) - 一个全面的HTTP客户端
 * [HTTPFul](https://github.com/nategood/httpful) - 一个链式HTTP库
+* [HTTPlug](http://httplug.io) - 一个没有绑定特定实现的HTTP客户端的抽象
 * [PHP VCR](http://php-vcr.github.io/) - 一个录制和重放HTTP请求的库
 * [Requests](https://github.com/rmccue/Requests) - 一个简单的HTTP库
 * [Retrofit](https://github.com/tebru/retrofit-php) - 一个能轻松创建REST API客户端的库
@@ -373,35 +376,37 @@
 ## 代码分析 Code Analysis
 *分析，解析和处理代码库的库和工具*
 
-* [Athletic](https://github.com/polyfractal/athletic) - 一个基于注释的基准检测库
 * [Better Reflection](https://github.com/Roave/BetterReflection) - 基于AST的反射库，允许分析操作代码
 * [Code Climate](https://codeclimate.com) - 一个自动代码审查工具
-* [Dissect](https://github.com/jakubledl/dissect) - 一个词法和语法分析的工具集合
-* [Exakat](https://github.com/exakat/exakat) - 一个PHP的静态分析引擎
-* [GrumPHP](https://github.com/phpro/grumphp) - 一个用来保护代码质量的Composer插件
-* [Mondrian](https://github.com/Trismegiste/Mondrian) - 使用图论的代码分析工具
-* [PHP Analyser](https://github.com/scrutinizer-ci/php-analyzer) - 一个分析PHP代码查找缺陷和错误的库
-* [PHP Code Sniffer](https://github.com/squizlabs/PHP_CodeSniffer) - 一个检测PHP、CSS和JS代码标准冲突的库
-* [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) - 一个编码标准库
-* [PHP Manipulator](https://github.com/schmittjoh/php-manipulator) - 一个分析和修改PHP源代码的库
-* [PHP Mess Detector](https://phpmd.org/) - 一个扫描代码缺陷，次优代码，未使用的参数等等的库。
-* [PHP Metrics](https://github.com/phpmetrics/PhpMetrics) - 一个静态测量库
-* [PHP Migration](https://github.com/monque/PHP-Migration) - 一个PHP版本升级的静态分析库
 * [PHP Parser](https://github.com/nikic/PHP-Parser) - 一个PHP编写的PHP解析器
-* [PHP Refactoring Browser](https://github.com/QafooLabs/php-refactoring-browser) - 一个重构PHP代码的命令行工具集
 * [PHP Semantic Versioning Checker](https://github.com/tomzx/php-semver-checker) - 一个比较两个源集和确定适当的应用语义版本的命令行实用程序
-* [phan](https://github.com/phan/phan) - 一个基于PHP 7+和php-ast扩展的静态分析器
-* [PHPCheckstyle](https://github.com/PHPCheckstyle/phpcheckstyle) - 一个帮助遵守特定的编码惯例的工具
-* [PHPCPD](https://github.com/sebastianbergmann/phpcpd) - 一个检测复制和粘贴代码的库
-* [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) - 一个创建可定制依赖图的工具
 * [PHPLOC](https://github.com/sebastianbergmann/phploc) - 一个快速测量PHP项目大小的工具
 * [PHPQA](https://github.com/EdgedesignCZ/phpqa) - 一个用于运行质量保证工具的工具(phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).
-* [PHPPHP](https://github.com/ircmaxell/PHPPHP) - 一个PHP实现的PHP虚拟机
-* [PHPSandbox](https://github.com/Corveda/PHPSandbox) - 一个PHP沙盒环境
-* [PHPStan](https://github.com/phpstan/phpstan) - 一个PHP静态分析工具
 * [Qafoo Quality Analyzer](https://github.com/Qafoo/QualityAnalyzer) - 一个可视化指标和源代码的工具
 * [Scrutinizer](https://scrutinizer-ci.com/) - 一个审查PHP代码的web工具
 * [UBench](https://github.com/devster/ubench) - 一个简单的微型基准检测库
+
+## 代码质量 Code Quality
+*管理代码质量、格式化和lint的库*
+
+* [PHP CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) - 一个检测PHP、CSS和JS代码标准冲突的库
+* [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) - 一个编码标准库
+* [PHP Mess Detector](https://phpmd.org/) - 一个扫描代码缺陷，次优代码，未使用的参数等等的库
+* [PHPCheckstyle](https://github.com/PHPCheckstyle/phpcheckstyle) - 一个帮助遵守特定的编码惯例的工具
+* [PHPCPD](https://github.com/sebastianbergmann/phpcpd) - 一个检测复制和粘贴代码的库
+
+## 静态分析 Static Analysis
+*PHP代码静态分析的库*
+
+* [Exakat](https://github.com/exakat/exakat) - 一个PHP的静态分析引擎
+* [Mondrian](https://github.com/Trismegiste/Mondrian) - 使用图论的代码分析工具
+* [phan](https://github.com/phan/phan) - 一个基于PHP 7+和php-ast扩展的静态分析器
+* [PHPCompatibility](https://github.com/wimg/PHPCompatibility) - 一个PHP CodeSniffer的兼容性检查器
+* [PhpDependencyAnalysis](https://github.com/mamuz/PhpDependencyAnalysis) - 一个创建可定制依赖图的工具
+* [PHP Metrics](https://github.com/phpmetrics/PhpMetrics) - 一个静态测量库
+* [PHP Migration](https://github.com/monque/PHP-Migration) - 一个PHP版本升级的静态分析库
+* [PHPStan](https://github.com/phpstan/phpstan) - 一个PHP静态分析工具
+* [Pslam](https://github.com/vimeo/psalm) - 一个用于在PHP应用程序中查找错误的静态分析工具
 
 ## Architectural Architectural
 *相关的设计模式库，组织代码编程的方法和途径*
@@ -455,7 +460,6 @@
 ## 导航 Navigation
 *构建导航结构的工具*
 
-* [Cartographer](https://github.com/tackk/cartographer) - 一个站点地图生成库
 * [KnpMenu](https://github.com/KnpLabs/KnpMenu) - 一个菜单库
 
 ## 资源管理 Asset Management
@@ -480,7 +484,6 @@
 * [CalendR](http://yohan.giarel.li/CalendR/) - 一个日历管理库
 * [Carbon](https://github.com/briannesbitt/Carbon) - 一个简单的日期时间API扩展
 * [Chronos](https://github.com/cakephp/chronos) - 一个支持可变和不可变日期时间的DateTime API扩展
-* [ExpressiveDate](https://github.com/jasonlewis/expressive-date) - 另一个日期时间API扩展
 * [Moment.php](https://github.com/fightbulc/moment.php) - 灵感来源于Moment.js的PHP DateTime处理库，支持国际化
 * [Yasumi](https://github.com/azuyalabs/yasumi) - 一个帮助你计算节日日期和名称的库
 
@@ -504,8 +507,6 @@
 ## 日志 Logging
 *生成和处理日志文件的库*
 
-* [Analog](https://github.com/jbroadway/analog) - 一个基于闭包的微型日志包
-* [KLogger](https://github.com/katzgrau/KLogger) - 一个易用的兼容PSR-3的日志类
 * [Monolog](https://github.com/Seldaek/monolog) - 一个全面的日志工具
 
 ## 电子商务 E-commerce
@@ -537,6 +538,7 @@
 ## 数据库 Database
 *使用对象关系映射（ORM）或数据映射技术的数据库交互的库*
 
+* [Atlas.Orm](https://github.com/atlasphp/Atlas.Orm) - 一个PHP持久化模型数据映射的实现
 * [Aura.Sql](https://github.com/auraphp/Aura.Sql) - 一个使用PDO的ORM
 * [Aura.SqlQuery](https://github.com/auraphp/Aura.SqlQuery) - 支持MySQL, PostgreSQL, SQLite和Microsoft SQL Server的ORM
 * [Baum](https://github.com/etrepat/baum) - 一个Eloquent的嵌套集实现
@@ -842,12 +844,15 @@
 * [HHVM](https://github.com/facebook/hhvm) - Facebook出品的PHP虚拟机，Runtime和JIT
 * [HippyVM](https://github.com/hippyvm/hippyvm) - 另一个PHP虚拟机
 
-## 集成开发环境(IDE) Integrated Development Environment
-*支持PHP的集成开发环境*
+## 文本编辑器和IDE Text Editors and IDEs
+*支持PHP的文本编辑器和集成开发环境(IDE)*
 
+* [Atom](https://atom.io/) - 一个文本编辑器
+* [Atom IDE](https://ide.atom.io/) - 一个扩展自Atom的IDE
 * [Eclipse for PHP Developers](https://www.eclipse.org/downloads/) - 一个基于Eclipse平台的PHP IDE
 * [Netbeans](https://netbeans.org) - 一个支持PHP和HTML5的IDE
 * [PhpStorm](http://www.jetbrains.com/phpstorm/) - 一个商业PHP IDE
+* [VS Code](https://code.visualstudio.com/) - 一个开源的代码编辑器
 
 ## Web应用 Web Applications
 *基于Web的应用和工具*
@@ -888,12 +893,14 @@
 * [PHPTrends](https://phptrends.com/) - 一个快速增长的PHP类库的概述
 * [Securing PHP](http://securingphp.com/) - 一个关于PHP安全和库的建议的简报
 * [Seven PHP](https://7php.com/) - 一个PHP社区成员采访的网站
+* [PHP Annotated Monthly](https://blog.jetbrains.com/phpstorm/category/php-annotated-monthly/) - 一个PHP新闻的月度摘要
 
 ## 其他网站 Other Websites
 *web开发相关的有用网站*
 
 * [Atlassian Git Tutorials](https://www.atlassian.com/git) - 一个Git教程系列
 * [Hg Init](http://hginit.com/) - 一个Mercurial教程系列
+* [Learning Linux](https://linuxjourney.com/) - 一个学习linux的个网站
 * [Semantic Versioning](https://semver.org/) - 一个解析语义版本的网站
 * [Servers for Hackers](https://serversforhackers.com/) - 一个关于服务器管理的新闻通讯
 * [The Open Web Application Security Project (OWASP)](https://www.owasp.org/index.php/Main_Page) - 一个开放软件安全社区
@@ -941,6 +948,7 @@
 
 * [PHP Town Hall](https://phptownhall.com/) - 一个随意的Ben Edmunds和Phil Sturgeon的PHP播客
 * [PHP Roundtable](https://www.phproundtable.com/) - PHP Roundtable是一个讨论PHP开发者关心话题的临时聚会
+* [Voices of the ElePHPant](https://voicesoftheelephpant.com/) - 对PHP社区成员的采访
 
 ## PHP阅读 PHP Reading
 *PHP相关的阅读资料*
